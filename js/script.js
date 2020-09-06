@@ -1,19 +1,30 @@
 $(function(){
+
+    // sticky nav
+    var navbar = $('.navbar'),
+    distance = navbar.offset().top,
+    $window = $(window);
+
+    function menuFun(){
+        if ($window.scrollTop() >= distance) {
+            navbar.removeClass('sticky-nav').addClass('sticky-nav');
+        } else {
+            navbar.removeClass('sticky-nav');
+        }
+    }
+    menuFun()
+    $window.scroll(function() {
+        menuFun()
+    });
+
+    $('.navbar-nav li').click(function(){
+        $('.navbar-nav li a').removeClass('active');
+        $(this).find('a').addClass('active');
+        $('html, body').animate({scrollTop : $(".tiecon-sec:eq('" + $(this).index() + "')").offset().top - 60});
+    });
     
-    $('.mobile-menu-click').on('click', function(){
-        $(this).toggleClass('active');
-        $('nav').toggleClass('active');
+    $window.scroll(function() {
+        
     });
 
-    $('.chat-click').on('click', function(){
-        $(this).toggleClass('active');
-        $('.chat-section-box').slideToggle('fast');
-    });
-
-
-    $('.getstartchat').on('click', function(){
-        $('.chat-box').css({display: "none"});
-        $('.customer-chat').css({display: "block"});
-    });
-
-});
+})

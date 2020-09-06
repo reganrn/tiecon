@@ -126,6 +126,42 @@ header .col {
 /* banner */
 
 /* Nav */
+
+.navbar.sticky-nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 99;
+    animation: topanimate 1s forwards;
+}
+
+@keyframes topanimate {
+    from {top: -100px;}
+    to {top: 0px;}
+  }
+
+.navbar.sticky-nav .hide-desktop {
+    display: block !important;
+}
+
+.navbar.sticky-nav .mr-auto{
+    transition: all 5s;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+.navbar.sticky-nav .nav-link{
+    font-size: 14px !important;
+}
+
+.navbar-brand  {
+    font-weight: bold;
+    font-size: 32px !important;
+    color: #e00024 !important;
+    transition: all 5s;
+}
+
 .tiecon-navigation {
     background: #000000;
 }
@@ -383,15 +419,6 @@ footer .row {
         display: block !important;
         
     }
-    .navbar-brand  {
-        font-weight: bold;
-        font-size: 32px !important;
-    }
-    .navbar {
-        padding: 0 !important;
-    }
-
-    
   }
 
   @media(max-width: 767px){
