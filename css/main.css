@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat';
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 16px;
+    margin: 0 !important;
+}
+
+.equal-padding {
+    padding: 40px 0;
+}
+
+
+.border-left-right {
+    border: 2px solid #727678;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.border-left-right-red {
+    border: 1px solid #e00024;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.hide-desktop {
+    display: none !important;
+}
+
+.tiecon-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #e00024;
+    padding: 0 0 24px;
+    line-height: 48px;
+}
+
+.tiecon-sub-title {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    color: #747879;
+    padding: 0 0 42px;
+    line-height: 28px;
+}
+
+/* Header */
+
+header {
+    padding: 42px 0;
+}
+
+
+header .justify-content-md-center{
+    align-items: flex-end;
+}
+
+header .col {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+/* Header */
+
+/* banner */
+.tiecon-banner {
+    background: url(../images/banner.gif) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.tiecon-banner h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tiecon-banner h3 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tiecon-banner h2 {
+    text-align: center;
+    color: #f8f400;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 30px 0 0;
+}
+
+.tiecon-banner p {
+    text-align: center;
+    color: #f8f400;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.tiecon-cta {
+    text-align: center;
+}
+/* banner */
+
+/* Nav */
+.tiecon-navigation {
+    background: #000000;
+}
+
+.tiecon-navigation .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 15px !important;
+}
+
+/* Nav */
+
+
+/* About  */
+.tiecon-about{
+    padding: 30px 0;
+    border-bottom: 1px dashed #cccccc;
+}
+.tiecon-about-banner {
+    background: url(../images/about-tie.gif) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiecon-about-banner h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.tiecon-about p {
+    padding: 30px 0 0 !important;
+}
+/* About  */
+
+/* Grid */
+
+.tiecon-chennai-2020, .tiecon-sandhai, .tiecon-exhibitors, .tiecon-pitchfest, .tiecon-speakers-eng-session, .tiecon-speakers-tamil-session{
+    border-bottom: 1px dashed #cccccc;
+}
+
+.tiecon-chennai-2020-grid-brief h2 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #e00024;
+    padding: 0 0 12px;
+}
+
+.tiecon-chennai-2020-grid-brief p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    padding: 0 0 12px;
+}
+
+.tiecon-chennai-2020-grid-brief p span {
+    font-size: 21px;
+    display: block;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.tiecon-chennai-2020-grid .col-md , .tiecon-sandhai-grid .col-md{
+    padding: 6px 32px;
+}
+
+.tiecon-sandhai-grid-brief h2 {
+    font-size: 21px;
+}
+
+.tiecon-speakers-grid .row{
+    justify-content: center;
+}
+
+.tiecon-exhibitors-grid .col-md-2, .tiecon-speakers-grid .col-md-2, .tiecon-sponsors-grid .col-md-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    margin-bottom: 24px;
+}
+
+.tiecon-speakers-grid h4 {
+    font-size: 18px;
+    padding: 20px 0 0;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    color: #747879;
+}
+
+.tiecon-speakers-grid p {
+    text-align: center;
+}
+
+.tiecon-speakers-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Grid */
+
+/* Footer */
+footer {
+    background: #000000;
+}
+
+.border-right-gray {
+    border-right: 2px solid #cccccc;
+}
+
+.footer-list ul {
+    margin: 0 !important;
+}
+
+.footer-list ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 0 0;
+    display: inline-block;
+}
+
+.footer-address h2 {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 0 5px;
+}
+
+.footer-address p {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 0 5px;
+}
+
+footer .row {
+    align-items: flex-end;
+}
+/* Footer */
+
+
+/* CTA Button */
+.btns {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0px;
+    font-weight: bold;
+    padding: 12px 54px;
+    border: 0px;
+    font-size: 16px;
+    border:2px solid #f1f1f1;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btns-primary {
+    color: #000000;
+    background-color: #f8f400;
+    border-color: #f8f400 ;
+}
+
+.btns-primary:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff ;
+}
+
+.btns-primary:disabled {
+    color: #fff;
+    background-color: #818890;
+    border-color: #818890 ;
+}
+
+.btns-secondary {
+    color: #fff;
+    background-color: #1A3365;
+    border-color: #1A3365;
+}
+
+.btns-secondary:disabled {
+    color: #fff;
+    background-color: #818890;
+    border-color: #818890 ;
+}
+
+.btns-secondary:hover {
+    color: #fff;
+    background-color: #124;
+    border-color: #124;
+}
+
+.btns-outline-primary {
+    color: #ff4343;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff4343;
+}
+
+.btns-outline-primary:hover {
+    color: #fff;
+    background-color: #ff4343;
+    border-color: #ff4343;
+}
+
+.btns-outline-primary:disabled {
+    color: #818890;
+    background-color: transparent;
+    border-color: #818890;
+}
+
+.btns-outline-secondary {
+    color: #132F63;
+    background-color: transparent;
+    background-image: none;
+    border-color: #132F63;
+}
+
+.btns-outline-secondary:hover {
+    color: #fff;
+    background-color: #132F63;
+    border-color: #132F63;
+}
+
+.btns-outline-secondary:disabled {
+    color: #818890;
+    background-color: transparent;
+    border-color: #818890;
+}
+
+.btns-lg {
+   font-size: 12px;
+   padding: 15.5px 46px;
+}
+
+.btns-sm {
+    font-size: 11px;
+    padding: 10px 14px;
+}
+
+.btns-block {
+    display: block;
+    width: 100%;
+}
+  /* CTA Button */
+
+  @media(max-width: 1140px){
+    .tiecon-navigation .nav-link{
+        padding: 12px 8px !important;
+        font-size: 14px;
+    }
+  }
+
+  @media(max-width: 980px){
+    .hide-desktop {
+        display: block !important;
+        
+    }
+    .navbar-brand  {
+        font-weight: bold;
+        font-size: 32px !important;
+    }
+    .navbar {
+        padding: 0 !important;
+    }
+  }
+
+  @media(max-width: 767px){
+    .tiecon-exhibitors-grid .col-md-2, .tiecon-speakers-grid .col-md-2, .tiecon-sponsors-grid .col-md-2 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .border-left-right-red {
+        border: 0;
+    }
+    
+  }
+
+  @media(max-width: 649px){
+    .tiecon-exhibitors-grid .col-md-2, .tiecon-speakers-grid .col-md-2, .tiecon-sponsors-grid .col-md-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+  }
+
+  @media(max-width: 480px){
+    .tiecon-exhibitors-grid .col-md-2, .tiecon-speakers-grid .col-md-2, .tiecon-sponsors-grid .col-md-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+  }
