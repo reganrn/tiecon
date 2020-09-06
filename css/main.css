@@ -117,6 +117,7 @@ header .col {
     color: #f8f400;
     font-weight: 500;
     font-size: 21px;
+    line-height: 30px;
 }
 
 .tiecon-cta {
@@ -389,15 +390,34 @@ footer .row {
     .navbar {
         padding: 0 !important;
     }
+
+    
   }
 
   @media(max-width: 767px){
+
+    .tiecon-chennai-2020-grid-brief h2 br{
+        display: none;
+    }
+
     .tiecon-exhibitors-grid .col-md-2, .tiecon-speakers-grid .col-md-2, .tiecon-sponsors-grid .col-md-2 {
         flex: 0 0 30%;
         max-width: 30%;
     }
     .border-left-right-red {
         border: 0;
+    }
+
+    .img-adj {
+        width: 60%;
+    }
+
+    header {
+        padding: 24px 0;
+    }
+
+    header .col {
+        padding: 0px 15px;
     }
     
   }
@@ -414,5 +434,13 @@ footer .row {
         flex: 0 0 100%;
         max-width: 100%;
         text-align: center;
+    }
+
+    .tiecon-banner h1 {
+        font-size: 26px;
+    }
+
+    .tiecon-banner h3 {
+        font-size: 18px;
     }
   }
